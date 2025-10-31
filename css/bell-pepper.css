@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fafafa;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3, h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #2c3e50;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('../images/bell\ pepper\ background\ 2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #D64541;
+}
+
+header .header-img {
+    max-width: 50%;
+    border-radius: 10px;
+    margin-top: 20px;
+    border-color: orange;
+}
+
+.recipe h2 {
+    color: #D64541;
+    margin-top: 20px;
+}
+
+ul, ol {
+    margin: 0 0 20px 20px;
+}
+
+li {
+    line-height: 1.6;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+.content-img {
+    max-width: 10%;
+    max-height: 10%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: black;
+    color: orange;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    gap: 40px;
+    margin-top: 90px;
+}
+
+.footer-branding {
+    flex: 1 1 300px;
+    color: white;
+    margin-left: 50px;
+}
+
+.footer-branding a {
+    color: #fff;
+    font-size: 2em;
+}
+
+.footer-branding p {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.footer-links {
+    flex: 1 1 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-column {
+    flex: 1 1 200px;
+}
+
+.footer-column h4 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #ecf0f1;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #bdc3c7;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: #e74c3c;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.newsletter-form input {
+    flex: 1 1 200px;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+.newsletter-form button {
+    padding: 12px 20px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter-form button:hover {
+    background-color: #c0392b;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-links li {
+    list-style: none;
+}
+
+.social-links li a img {
+    width: 30px;
+    filter: invert(100%);
+    transition: filter 0.3s;
+}
+
+.social-links li a:hover img {
+    filter: invert(57%) sepia(82%) saturate(7473%) hue-rotate(354deg) brightness(95%) contrast(101%);
+}
